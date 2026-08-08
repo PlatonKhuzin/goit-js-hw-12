@@ -16,3 +16,13 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+.load-more {
+  display: none;
+  margin: 32px auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.load-more.is-visible {
+  display: block;
+}
